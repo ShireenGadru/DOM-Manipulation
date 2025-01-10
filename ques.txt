@@ -1,0 +1,115 @@
+
+
+Beginner Level
+Change Text Content
+
+Create an HTML page with a <p> element. Write JavaScript to change the text content of the <p> when a button is clicked.
+Background Color Changer
+
+Create a button that changes the background color of the page to a random color when clicked.
+Add List Items
+
+Create an input box and a button. When the button is clicked, add the input text as a new <li> in an unordered list.
+Toggle Visibility
+
+Create a div with some text. Add a button that hides or shows the div when clicked.
+Update Image
+
+Add an image to your HTML. Write JavaScript to change the image source when a button is clicked.
+Intermediate Level
+Counter App
+
+Create a counter with increment and decrement buttons. Display the current count in a <span>.
+Dynamic Table
+
+Create a form to input rows and columns. Generate a table dynamically based on the input values.
+Highlight Text
+
+Create a paragraph. Add a button that highlights all instances of a specific word in the paragraph.
+Remove List Item
+
+Create a list of items. Add a delete button next to each item that removes the item when clicked.
+Accordion Menu
+
+Create an accordion menu where clicking on a section title shows or hides its content.
+Advanced Level
+Drag and Drop
+
+Create a list of items that can be rearranged using drag-and-drop.
+Form Validation
+
+Create a form with fields like name, email, and password. Add JavaScript to validate the fields and show error messages if they are invalid.
+Stopwatch
+
+Create a simple stopwatch with start, stop, and reset buttons.
+Filter Items
+
+Create a search bar that filters a list of items based on the input text.
+To-Do List
+
+Create a to-do list where you can add, mark as complete, and delete tasks.
+Dynamic Content Loader
+
+Fetch data from an API (e.g., JSONPlaceholder) and display the results dynamically in a list or table.
+Expert Level
+Carousel/Slider
+
+Create an image carousel with "Next" and "Previous" buttons.
+Form with Live Preview
+
+Create a form where the user enters data (e.g., name, bio, etc.), and show a live preview of the entered data.
+Theme Switcher
+
+Add a button to toggle between light and dark themes for your page.
+Quiz App
+
+Create a quiz app that displays questions, tracks the user's score, and shows the result at the end.
+Tools You Might Use:
+document.querySelector() or document.getElementById() to select elements.
+Event listeners like addEventListener().
+Methods like .createElement(), .appendChild(), .removeChild().
+classList for adding, removing, and toggling CSS classes.
+
+
+
+
+1. Circle Follows Cursor
+Create a circle element that follows the mouse cursor as you move it across the screen.
+Hint: Use the mousemove event and update the style.left and style.top properties of the circle.
+
+2. Typewriter Effect
+Create a typewriter animation where text appears letter by letter in a <div>.
+Hint: Use setInterval() or setTimeout() to progressively add characters to the innerHTML of the <div>.
+
+3. Starfield Background
+Generate a starfield effect by creating small, randomly positioned divs that move downward and reset to the top when they reach the bottom.
+Hint: Use requestAnimationFrame() for smooth animations.
+
+4. Growing and Shrinking Shapes
+Create a shape that grows when you hover over it and shrinks when the mouse leaves.
+Hint: Use the mouseover and mouseout events to adjust the transform: scale() property.
+
+5. Countdown Timer
+Build a countdown timer that dynamically updates the time remaining and displays a "Time's Up!" message when it reaches zero.
+Hint: Use setInterval() to decrement the time and update the DOM.
+
+6. Pixel Art Creator
+Create a grid of small divs. Allow users to "paint" the grid by clicking and dragging their cursor across the cells.
+Hint: Use mousedown, mousemove, and mouseup events to detect and apply changes to the grid.
+
+7. Responsive Navbar Animation
+Create a responsive navigation bar with an animated hamburger menu that toggles the menu on small screens.
+Hint: Use classList.toggle() to add/remove a class for showing/hiding the menu.
+
+8. Random Quotes Generator
+Display a random quote from an array of quotes every time a button is clicked.
+Hint: Use Math.random() to pick a random quote and update the DOM.
+
+9. Dynamic Mood Light
+Change the background color of the page gradually over time to create a "mood light" effect.
+Hint: Use setInterval() and Math.random() to generate and apply new colors periodically.
+
+10. Interactive Progress Bar
+Create a progress bar that fills up as you scroll down the page.
+Hint: Use the scroll event to calculate the percentage of the page scrolled and update the width of the progress bar.
+
